@@ -1,0 +1,214 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
+  <diagram name="Página-1" id="mYtqKvfiubIxSiyy5R7R">
+    <mxGraphModel dx="1233" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-3" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="620" width="280" x="420" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-105" parent="4vFCpGuLLqlIvFL-Exka-3" style="ellipse;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="20" width="30" x="40" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-2" parent="4vFCpGuLLqlIvFL-Exka-3" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="620" width="200" x="-200" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-6" parent="4vFCpGuLLqlIvFL-Exka-2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="S" vertex="1">
+          <mxGeometry height="20" width="20" x="91" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-14" parent="4vFCpGuLLqlIvFL-Exka-2" style="whiteSpace=wrap;html=1;rounded=1;" value="Write an input" vertex="1">
+          <mxGeometry height="20" width="120" x="40" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-26" parent="4vFCpGuLLqlIvFL-Exka-2" style="whiteSpace=wrap;html=1;rounded=1;" value="write an input" vertex="1">
+          <mxGeometry height="20" width="120" x="40" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-11" edge="1" parent="4vFCpGuLLqlIvFL-Exka-3" source="4vFCpGuLLqlIvFL-Exka-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4vFCpGuLLqlIvFL-Exka-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-8" parent="4vFCpGuLLqlIvFL-Exka-3" style="rounded=1;whiteSpace=wrap;html=1;" value="Choose a word&amp;nbsp;" vertex="1">
+          <mxGeometry height="20" width="120" x="80" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-9" edge="1" parent="4vFCpGuLLqlIvFL-Exka-3" source="4vFCpGuLLqlIvFL-Exka-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4vFCpGuLLqlIvFL-Exka-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-13" edge="1" parent="4vFCpGuLLqlIvFL-Exka-3" source="4vFCpGuLLqlIvFL-Exka-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4vFCpGuLLqlIvFL-Exka-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-10" parent="4vFCpGuLLqlIvFL-Exka-3" style="whiteSpace=wrap;html=1;rounded=1;" value="Print the info" vertex="1">
+          <mxGeometry height="20" width="120" x="80" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-15" edge="1" parent="4vFCpGuLLqlIvFL-Exka-3" source="4vFCpGuLLqlIvFL-Exka-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4vFCpGuLLqlIvFL-Exka-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-12" parent="4vFCpGuLLqlIvFL-Exka-3" style="whiteSpace=wrap;html=1;rounded=1;" value="Wait for an input" vertex="1">
+          <mxGeometry height="20" width="120" x="80" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-16" parent="4vFCpGuLLqlIvFL-Exka-3" style="whiteSpace=wrap;html=1;rounded=1;" value="input == char?" vertex="1">
+          <mxGeometry height="20" width="80" x="100" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-17" edge="1" parent="4vFCpGuLLqlIvFL-Exka-3" source="4vFCpGuLLqlIvFL-Exka-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4vFCpGuLLqlIvFL-Exka-16" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-100" y="140" />
+              <mxPoint x="120" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-20" edge="1" parent="4vFCpGuLLqlIvFL-Exka-3" source="4vFCpGuLLqlIvFL-Exka-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="200" />
+            </Array>
+            <mxPoint x="80" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-21" connectable="0" parent="4vFCpGuLLqlIvFL-Exka-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
+          <mxGeometry relative="1" x="0.0105" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-24" edge="1" parent="4vFCpGuLLqlIvFL-Exka-3" source="4vFCpGuLLqlIvFL-Exka-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4vFCpGuLLqlIvFL-Exka-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-25" connectable="0" parent="4vFCpGuLLqlIvFL-Exka-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="0.0576" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-18" parent="4vFCpGuLLqlIvFL-Exka-3" style="rhombus;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="40" width="69" x="105.5" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-27" edge="1" parent="4vFCpGuLLqlIvFL-Exka-3" source="4vFCpGuLLqlIvFL-Exka-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4vFCpGuLLqlIvFL-Exka-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-19" parent="4vFCpGuLLqlIvFL-Exka-3" style="whiteSpace=wrap;html=1;rounded=1;" value="Print the error and wait for an input" vertex="1">
+          <mxGeometry height="30" width="120" x="20" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-22" parent="4vFCpGuLLqlIvFL-Exka-3" style="whiteSpace=wrap;html=1;rounded=1;" value="The char is it in the choosen word?" vertex="1">
+          <mxGeometry height="30" width="120" x="140" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-28" edge="1" parent="4vFCpGuLLqlIvFL-Exka-3" source="4vFCpGuLLqlIvFL-Exka-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="4vFCpGuLLqlIvFL-Exka-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-100" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-31" edge="1" parent="4vFCpGuLLqlIvFL-Exka-3" source="4vFCpGuLLqlIvFL-Exka-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="290" />
+            </Array>
+            <mxPoint x="80" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-37" connectable="0" parent="4vFCpGuLLqlIvFL-Exka-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.3386" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-35" edge="1" parent="4vFCpGuLLqlIvFL-Exka-3" source="4vFCpGuLLqlIvFL-Exka-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4vFCpGuLLqlIvFL-Exka-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-36" connectable="0" parent="4vFCpGuLLqlIvFL-Exka-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.62" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-29" parent="4vFCpGuLLqlIvFL-Exka-3" style="rhombus;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="40" width="69" x="165.5" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-33" edge="1" parent="4vFCpGuLLqlIvFL-Exka-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="4vFCpGuLLqlIvFL-Exka-32" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="350" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-30" parent="4vFCpGuLLqlIvFL-Exka-3" style="whiteSpace=wrap;html=1;rounded=1;" value="Change the print info" vertex="1">
+          <mxGeometry height="20" width="120" x="20" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-32" parent="4vFCpGuLLqlIvFL-Exka-3" style="whiteSpace=wrap;html=1;rounded=1;" value="word == choosenWord?" vertex="1">
+          <mxGeometry height="20" width="140" x="70" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-40" edge="1" parent="4vFCpGuLLqlIvFL-Exka-3" source="4vFCpGuLLqlIvFL-Exka-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="4vFCpGuLLqlIvFL-Exka-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-34" parent="4vFCpGuLLqlIvFL-Exka-3" style="whiteSpace=wrap;html=1;rounded=1;" value="lifes -= 1" vertex="1">
+          <mxGeometry height="20" width="90" x="155" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-49" edge="1" parent="4vFCpGuLLqlIvFL-Exka-3" source="4vFCpGuLLqlIvFL-Exka-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4vFCpGuLLqlIvFL-Exka-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-50" connectable="0" parent="4vFCpGuLLqlIvFL-Exka-49" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.1971" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-107" edge="1" parent="4vFCpGuLLqlIvFL-Exka-3" source="4vFCpGuLLqlIvFL-Exka-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4vFCpGuLLqlIvFL-Exka-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-39" parent="4vFCpGuLLqlIvFL-Exka-3" style="rhombus;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="40" width="69" x="105.5" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-45" parent="4vFCpGuLLqlIvFL-Exka-3" style="ellipse;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="25" x="42.5" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-48" parent="4vFCpGuLLqlIvFL-Exka-3" style="whiteSpace=wrap;html=1;rounded=1;" value="lifes == 0?" vertex="1">
+          <mxGeometry height="20" width="74.5" x="185.5" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-52" edge="1" parent="4vFCpGuLLqlIvFL-Exka-3" source="4vFCpGuLLqlIvFL-Exka-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="4vFCpGuLLqlIvFL-Exka-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="510" />
+              <mxPoint x="270" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-53" connectable="0" parent="4vFCpGuLLqlIvFL-Exka-52" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.957" as="geometry">
+            <mxPoint x="-5" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-51" parent="4vFCpGuLLqlIvFL-Exka-3" style="rhombus;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="40" width="69" x="185.5" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-54" parent="4vFCpGuLLqlIvFL-Exka-3" style="whiteSpace=wrap;html=1;rounded=1;" value="Lose printing" vertex="1">
+          <mxGeometry height="20" width="74.5" x="105.5" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-55" edge="1" parent="4vFCpGuLLqlIvFL-Exka-3" source="4vFCpGuLLqlIvFL-Exka-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="560" />
+              <mxPoint x="183" y="560" />
+              <mxPoint x="183" y="561" />
+            </Array>
+            <mxPoint x="180" y="561" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-56" connectable="0" parent="4vFCpGuLLqlIvFL-Exka-55" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="yes" vertex="1">
+          <mxGeometry relative="1" x="-0.5485" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-109" edge="1" parent="4vFCpGuLLqlIvFL-Exka-3" source="4vFCpGuLLqlIvFL-Exka-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4vFCpGuLLqlIvFL-Exka-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-106" parent="4vFCpGuLLqlIvFL-Exka-3" style="whiteSpace=wrap;html=1;rounded=1;" value="Win printing" vertex="1">
+          <mxGeometry height="20" width="74.5" x="102.75" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-108" edge="1" parent="4vFCpGuLLqlIvFL-Exka-3" source="4vFCpGuLLqlIvFL-Exka-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.073;entryY=0.541;entryDx=0;entryDy=0;entryPerimeter=0;" target="4vFCpGuLLqlIvFL-Exka-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Player" vertex="1">
+          <mxGeometry height="30" width="200" x="220" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="4vFCpGuLLqlIvFL-Exka-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Software" vertex="1">
+          <mxGeometry height="30" width="280" x="420" y="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
