@@ -26,7 +26,7 @@ while continue_flag:
 
     cipher(text, shift, selection)
 
-    if input("Do you want to encode or decode again?(y/n)") == "y":
+    if input("Do you want to encode or decode again?(y)") == "y":
         continue_flag = True
     else:
         continue_flag = False
