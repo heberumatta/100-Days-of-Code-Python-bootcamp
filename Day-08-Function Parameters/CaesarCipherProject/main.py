@@ -18,7 +18,9 @@ print(logo)
 input("Press Enter to continue...")
 
 while continue_flag:
-    selection = input("Enter 'd' for decode or 'e' for encode: ")
+    
+    while selection := input("Enter 'd' for decode or 'e' for encode: ") not in ['e', 'd']:
+        print("Please enter one of the following options!!")
     text = input("Enter the text to be encrypted: ").lower()
     shift = int(input("Enter the shift number: "))
 
