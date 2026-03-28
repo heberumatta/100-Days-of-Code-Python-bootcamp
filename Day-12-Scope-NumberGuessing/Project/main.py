@@ -1,4 +1,5 @@
 import random
+from art import logo
 
 def select_difficulty():
     difficulty = input("Choose a difficulty. Type 'easy', 'medium', or 'hard': ").lower()
@@ -12,6 +13,7 @@ def select_difficulty():
         print("Invalid choice. Defaulting to 'easy' difficulty.")
         return 10
 
+print(logo)
 print("Welcome to the Number Guessing Game!")
 lives = select_difficulty()
 print(f"You have {lives} lives to guess the number.")
