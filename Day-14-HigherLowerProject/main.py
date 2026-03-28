@@ -22,9 +22,10 @@ score = 0
 game_should_continue = True
 
 """For this we shuffle the data and pop, this ensures that we don't get the same account twice"""
-random.shuffle(data)
-account_a = data.pop()
-account_b = data.pop()
+deck = data[:]
+random.shuffle(deck)
+account_a = deck.pop()
+account_b = deck.pop()
 print(logo)
 
 
@@ -33,7 +34,7 @@ while game_should_continue:
     print(f"Compare A: {string_of_data(account_a)}.")
     print(vs)
     print(f"Against B: {string_of_data(account_b)}.")
-    
+
     while (guess := input("Who has more followers? Type 'A' or 'B': ").lower()) not in ['a', 'b']:
         print("Invalid input. Please type 'A' or 'B'.")
     if guess == compare(account_a, account_b):
@@ -42,7 +43,7 @@ while game_should_continue:
         print(f"You're right! Current score: {score}.")
         account_a = account_b
         try:
-            account_b = data.pop()
+            account_b = deck.pop()
         except IndexError:
             print("No more accounts to compare. You've completed the game!")
             break
