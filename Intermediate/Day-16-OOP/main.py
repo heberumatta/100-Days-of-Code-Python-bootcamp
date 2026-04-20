@@ -15,10 +15,11 @@ import random
 import prettytable as pt
 
 table = pt.PrettyTable()
-table.add_column("Kilo", [1,'','','','',''])
-table.add_column("Deca", [1,0,'','','',''])
-table.add_column("Hecto", [1,0,0,'','',''])
-table.add_column("Unit", [1,0,0,0,'',''])
-table.add_column("Deci", [1,0,0,0,0,''])
-table.add_column("Centi", [1,0,0,0,0,0])
+table.add_column("Kilo", [1,'','','','','',''])
+table.add_column("Deca", [1,0,'','','','',''])
+table.add_column("Hecto", [1,0,0,'','','',''])
+table.add_column("Unit", [1,0,0,0,'','',''])
+table.add_column("Deci", [1,0,0,0,0,'',''])
+table.add_column("Centi", [1,0,0,0,0,0,''])
+table.add_column("Milli", [1,0,0,0,0,0,0])
 print(table)
