@@ -16,6 +16,10 @@ class Dog:
         self.name = name
         self.age = age
 
+    def bark(self,dog):
+        print(f"{self.name} says Woof to {dog.name}!")
 #Now we can create multiple instances of the Dog class without repeating the code for each dog.
 my_dog = Dog("Buddy", 3)
 your_dog = Dog("Max", 5)
+
+my_dog.bark(your_dog)
