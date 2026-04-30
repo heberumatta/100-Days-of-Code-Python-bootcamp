@@ -1,6 +1,5 @@
-from question_model import Question
+from question_model import QuestionBank
 from data import question_data
 
-question_bank = []
-for question in question_data:
-    question_bank.append(Question(question["text"], question["answer"]))
+question_bank = QuestionBank(question_data)
+
