@@ -12,3 +12,4 @@ class QuestionBank:
         for question in questions:
             self.question_bank.append(Question(question["text"], question["answer"]))
         random.shuffle(self.question_bank)
+        
