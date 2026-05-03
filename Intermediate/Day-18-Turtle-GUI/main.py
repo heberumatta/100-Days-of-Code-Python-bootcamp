@@ -126,9 +126,6 @@ def hirstPainting(t):
 		t.rt(90)
 		t.pd()
 
-
-
-
 hirstPainting(tt)
 
 screen = Screen()
