@@ -24,7 +24,7 @@ def start_race():
     whoWins = screen.textinput("Make your bet", "Which turtle will win? (red, blue, green, yellow, orange, purple)")
 
     while True:
-        for racer in racers:
+        for racer in screen.turtles():
             racer.move()
             if racer.xcor() >= 200:
                 if whoWins == racer.color()[0]:
