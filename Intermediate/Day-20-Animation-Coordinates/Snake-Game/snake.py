@@ -2,10 +2,6 @@ from turtle import Turtle,Screen
 import random
 screen = Screen()
 screen.addshape("cube", ((-5, -5), (-5, 5), (5, 5), (5, -5)))
-silueta_manzana = (
-    (-3.5, -5), (-4, 4), (4, 4), (3.5, -5)
-)
-screen.addshape("apple", silueta_manzana)
 
 class Snake:
     def __init__(self):
@@ -14,8 +10,8 @@ class Snake:
         self.create_snake()
 
     def create_snake(self):
-        for i in range(10):
-            self.add_segment((-10 * i, 0))
+        for i in range(3):
+            self.add_segment((-15 * i, 0))
 
     def add_segment(self, position):
         new_segment = Turtle("cube")
@@ -28,14 +24,21 @@ class Snake:
     def extend(self):
         self.add_segment(self.segments[-1].position())
     
-    def eatApple(self):
-        head_pos = self.segments[0].onpos()
+    def appleHere(self):
+        position = self.segments[0].pos()
         for apple in self.apples:
-            if apple.onpos() == head_pos:
-                self.extend()
-                apple.delete()
+            if apple.pos() == position:
+                return (apple)
+        return None
+
+    def eatApple(self, apple=None):
+        apple.hideturtle()
+        self.extend()
 
     def move(self):
+        apple_here = self.appleHere()
+        if apple_here:
+            self.eatApple(apple_here)
         for seg in range(len(self.segments)-1, -1, -1):
             if seg == 0:
                 self.segments[0].forward(10)
@@ -43,7 +46,7 @@ class Snake:
                 new_x = self.segments[seg-1].xcor()
                 new_y = self.segments[seg-1].ycor()
                 self.segments[seg].goto(new_x, new_y)
-        self.eatApple()
+
     def up(self):
         if self.segments[0].heading() != 270:
             self.segments[0].speed(10)
@@ -71,7 +74,7 @@ class Snake:
     def generaApple(self):
         cor_x = random.randint(-300, 300)
         cor_y = random.randint(-300, 300)
-        new_apple = Turtle("apple")
+        new_apple = Turtle("cube")
         new_apple.color("red")
         new_apple.penup()
         new_apple.goto(cor_x, cor_y)
