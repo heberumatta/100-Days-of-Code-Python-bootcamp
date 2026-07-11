@@ -16,9 +16,9 @@ Cada carpeta contiene el código fuente, assets y cualquier documentación espec
 
 | Nivel | Días Completados | Estado |
 | :--- | :---: | :---: |
-| 🟢 Beginner | 10/20 | ✅ Completado |
-| 🟡 Intermediate | 5/30 | 🔄 En Progreso |
-| 🔴 Advanced | 0/50 | ⏳ Pendiente |
+| 🟢 Beginner | 15/15 | ✅ Completado |
+| 🟡 Intermediate | 6/43 | 🔄 En Progreso |
+| 🔴 Advanced | 0/41 | ⏳ Pendiente |
 
 > **Nota:** Actualizo este archivo diariamente con mi progreso y enlaces a los proyectos desplegados.
 
@@ -32,7 +32,6 @@ Cada carpeta contiene el código fuente, assets y cualquier documentación espec
 
 - [Curso Oficial: 100 Days of Code](https://www.udemy.com/course/100-days-of-code/)
 - [Documentación de Angela Yu](https://www.angelayu.co/)
-- [Guía de Contribución](CONTRIBUTING.md) *(Opcional, si planeas abrir el repo)*
 
 ## 📝 Licencia
 
@@ -40,4 +39,4 @@ Este proyecto es para fines educativos y personales. El contenido del curso pert
 
 ---
 
-*¡Gracias por visitar mi perfil! Sigue mi progreso en [Twitter/LinkedIn](LINK).*   
+*¡Gracias por visitar mi perfil! Sigue mi progreso en [LinkedIn](www.linkedin.com/in/heber-ulises-matta-77a378375).*   
