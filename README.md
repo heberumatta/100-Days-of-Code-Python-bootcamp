@@ -17,7 +17,7 @@ Cada carpeta contiene el código fuente, assets y cualquier documentación espec
 |Nivel|Días Completados|Estado|
 |-|:-:|:-:|
 |🟢 Beginner|15/15|✅ Completado|
-|🟡 Intermediate|6/44|🔄 En Progreso|
+|🟡 Intermediate|9/44|🔄 En Progreso|
 |🔴 Advanced|0/41|⏳ Pendiente|
 
 > \*\*Nota:\*\* Actualizo este archivo diariamente con mi progreso y enlaces a los proyectos desplegados.
